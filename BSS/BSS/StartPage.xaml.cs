@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace BSS
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для StartPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartPage : Page
     {
-        public MainWindow()
+        public StartPage()
         {
             InitializeComponent();
+        }
+
+        private void user_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.StudentsPage);
         }
     }
 }

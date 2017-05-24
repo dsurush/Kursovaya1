@@ -1,0 +1,16 @@
+﻿<Window x:Class="BSS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="650" ResizeMode="NoResize">
+    <Grid>
+        <Frame Name="frameMain" NavigationUIVisibility="Hidden" Navigated="frameMain_Navigated"></Frame>
+        <!--<Image x:Name="back" Source="back.jpg" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,200"></Image>
+        <Button x:Name="admin" Content="Админ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,40,0,0" Click="button_Click"/>
+        <Button x:Name="teacher" Content="Препродователям" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="25,80,0,0" Click="button_Click"/>
+        <Button x:Name="user" Content="Успеваемость студентов" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="25,120,0,0" Click="button_Click"/>-->
+    </Grid>
+</Window>
