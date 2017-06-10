@@ -10,7 +10,9 @@ namespace BSS
     {
         private static StartPage _startPage = new StartPage();
         private static StudentsPage _studentsPage = new StudentsPage();
-
+        private static TeachersPage _teachersPage = new TeachersPage();
+        private static SystemPage _systemPage = new SystemPage();
+        private static RedactorPage _redactorPage = new RedactorPage();
         public static StartPage StartPage
         {
             get
@@ -26,5 +28,27 @@ namespace BSS
                 return _studentsPage;
             }
         }
+        public static TeachersPage TeachersPage
+        {
+            get
+            {
+                return _teachersPage;
+            }
+        }
+        public static SystemPage SystemPage
+        {
+            get
+            {
+                return _systemPage;
+            }
+        }
+        public static RedactorPage RedactorPage
+        {
+            get
+            {
+                return _redactorPage;
+            }
+        }
+        
     }
 }

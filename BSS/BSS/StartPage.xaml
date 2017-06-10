@@ -7,9 +7,11 @@
       mc:Ignorable="d" 
               Title="BSS" Height="450" Width="650" Background="White">
     <Grid>
-        <Image x:Name="back" Source="back.jpg" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,0,0,200"></Image>
-        <Button x:Name="admin" Content="Админ" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="25,40,0,0"/>
-        <Button x:Name="teacher" Content="Препродователям" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="25,80,0,0"/>
-        <Button x:Name="user" Content="Успеваемость студентов" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="25,120,0,0" Click="user_Click"/>
+        <Image x:Name="back" Source="background.jpg" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="-195,-185,-370,-480" Height="1115" Width="1215"></Image>
+        <Button x:Name="teacher" Content="Вход" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" Click="teacher_Click"  Height="20" Margin="0,0,15,0"/>
+        <Button x:Name="user" Content="Успеваемость студентов" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="435,0,0,0" Click="user_Click" Height="20"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="100" Width="600" FontFamily="Calibri" FontSize="60" Cursor="SizeAll" Foreground="White" Margin="80,120,-30,230" ><Run Text="Добро пожаловат"/><Run Text="ь."/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="100" Width="600" FontFamily="Calibri" FontSize="20" Cursor="SizeAll" Foreground="White" Margin="75,230,-25,120" ><Run Text="С нами"/><Run Text=","/><Run Text=" Вы можете следить за успеваемость вашего ребенка"/><Run Text="."/></TextBlock>
+
     </Grid>
 </Page>

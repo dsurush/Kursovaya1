@@ -1,0 +1,19 @@
+﻿<Page x:Class="BSS.SystemPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BSS"
+            mc:Ignorable="d" 
+      Title="SystemPage" Height="450" Width="650" Background="White">
+
+    <Grid>
+        <Image x:Name="back" Source="background.jpg" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="-255,-180,-310,-485" Height="1115" Width="1215"></Image>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="100" Width="600" FontFamily="Calibri" FontSize="60" Cursor="SizeAll" Foreground="White" Margin="55,120,-5,230" ><Run Text="Вы вошли как админ"/><Run Text="!"/><LineBreak/><Run Text=""/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="100" Width="600" FontFamily="Calibri" FontSize="14" Cursor="SizeAll" Foreground="White" Margin="95,190,-45,160" ><Run Text="вы можете изменить информацию в разделе "/><Run Text="&quot;"/><Run Text="Редактирование списка"/><Run Text="&quot;"/><Run Text="."/></TextBlock>
+        <Button x:Name="logout" Content="Выход" HorizontalAlignment="Right" VerticalAlignment="Top" Width="60" Click="logout_Click"  Height="20" Margin="0,0,15,0"/>
+
+        <Button x:Name="redactor" Content="Редактировать" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="470,0,0,0" Click="redactor_Click" Height="20"/>
+
+    </Grid>
+</Page>

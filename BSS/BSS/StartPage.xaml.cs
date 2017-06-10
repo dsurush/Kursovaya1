@@ -29,5 +29,10 @@ namespace BSS
         {
             NavigationService.Navigate(Pages.StudentsPage);
         }
+
+        private void teacher_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.TeachersPage); 
+        }
     }
 }
